@@ -9,7 +9,18 @@
 5.	Para lanzar el Front End digite el comando “npm run serve”
 7.	Copie la url que el comando anterior le entregue, ejemplo http://localhost:8082/ y péguela en el navegador de su preferencia.
 8.	Debe observar algo como se muestra en la siguiente imagen:
-![image](https://github.com/wilmarti/VisorSuperHeroes/assets/67304248/2c62e584-3b13-4bd7-b5f6-a6e6bfb959d2)
+
+### Herramientas utilizadas
+```
+1. JavaScript como lenguaje de alto nivel
+2. Se utilizo Vue.js como Framework Front end
+3. Para el Back End se utilizo el Api Rest de Marvel (https://gateway.marvel.com/v1/public/comics?ts=1000&apikey=345d1a90c95c65fcb
+e249e2906cef261&hash=5d1b5769ce0f6716c78da23702ad53e0)
+4. Las utilidades extras utilizadas fueron las siguiente:
+   * Axios
+
+
+
 
 La pantalla principal de la prueba cuenta con el menú denominado Tienda, el cual tiene 2 submenús, así:
 
