@@ -18,7 +18,7 @@
 
           
               <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-              <b-navbar-brand> <FONT COLOR="red">Prueba Tecnica Full Stack DENTSU CREATIVE- MARVEL </FONT></b-navbar-brand>
+              <b-navbar-brand> <FONT COLOR="red">DENTSU CREATIVE- MARVEL </FONT></b-navbar-brand>
             
             <b-collapse is-nav id="nav-collapse" >
                 <b-navbar-nav>
