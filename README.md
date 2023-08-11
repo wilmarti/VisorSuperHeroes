@@ -1,25 +1,30 @@
-# Visor de Super Heroes (Dentsu Creative)
-El presente proyecto, corresponde al entregable correspondiente a la prueba técnica para la empresa Dentsu como desarrollador Full Stack y la funcionalidad principa consiste en desarrollar un visor de superhéroes que permita a los usuarios navegar entre ellos, conocer sus habilidades y votar para establecer un ranking.
+# Visor de Super Heroes (Dentsu Creative) - Descripción del Proyecto
+El Visor de Superhéroes es una aplicación diseñada para permitir a los usuarios explorar una lista de superhéroes, conocer sus habilidades y votar por ellos para crear un ranking. Este proyecto se enmarca en la prueba técnica para la posición de desarrollador Full Stack en Dentsu.
 
-## Características del Visor
+## Características Principales
 
-- Cada superhéroe tiene una página interna.
-- El visor está diseñado para dispositivos móviles.
-- La interfaz muestra una vista de cuadrícula con tarjetas individuales. Cada tarjeta contiene la imagen, el nombre, la descripción y el editor del superhéroe.
-- Cada tarjeta cuenta con botones "Me Gusta" y "No me Gusta", cuyos votos se almacenan en una Cookie o en LocalStorage.
-- Los resultados se presentan de manera paginada en grupos de 9 tarjetas.
+- Cada superhéroe cuenta con su propia página interna que muestra información detallada sobre él.
+- La interfaz está optimizada para dispositivos móviles, asegurando una experiencia de usuario fluida en diferentes pantallas.
+- La vista principal presenta una cuadrícula de tarjetas individuales. Cada tarjeta incluye la imagen, el nombre, la descripción y el editor del superhéroe.
+- Los usuarios pueden votar por los superhéroes usando los botones "Me Gusta" y "No me Gusta", y estos votos se almacenan de forma persistente en una Cookie o en LocalStorage.
+- Los resultados se presentan de manera paginada, mostrando grupos de 9 tarjetas por página.
+- Una vista adicional presenta un slider que muestra el ranking de "Los 10 más votados". Los usuarios pueden acceder a esta vista a través de un botón en la vista principal.
 
 ## Ranking de los 10 Más Votados
 
 - Existe una tercera vista que muestra un slider con el ranking "Los 10 más votados". Los usuarios pueden acceder a esta vista a través de un botón en la vista principal.
 
-## Notas para los Desarrolladores
+## Tecnologías Utilizadas
+- Vue.js: Se utiliza Vue.js como el framework principal para construir la interfaz de usuario y gestionar los componentes de la aplicación.
+- Axios: La biblioteca Axios se emplea para realizar solicitudes HTTP y comunicarse con la API de superhéroes.
+- Vuetify: Vuetify es un framework de diseño que proporciona componentes y estilos predefinidos para crear una interfaz atractiva y coherente.
 
-- El servicio debe ser implementado en un lenguaje de alto nivel y puede hacer uso de frameworks.
-- El servicio debe proporcionar tokens para consumir la API.
-- Se permite el uso de frameworks Frontend como AngularJs, Angular, ReactJs, VueJs, entre otros.
-- Los desarrolladores tienen flexibilidad para tomar decisiones relacionadas con la interfaz gráfica.
-- Se necesita un método que exponga la información de los superhéroes inscritos para la API.
+## Notas para los Desarrolladores
+- El servicio backend debe ser implementado en un lenguaje de alto nivel y puede hacer uso de frameworks según tu elección.
+- Asegúrate de proporcionar tokens para la autenticación y consumo de la API de superhéroes.
+- En el frontend, tienes la libertad de elegir entre frameworks Frontend como AngularJs, Angular, ReactJs, VueJs, entre otros.
+- Toma decisiones relacionadas con la interfaz gráfica para crear una experiencia de usuario atractiva y funcional.
+- Asegura que el método que exponga la información de los superhéroes inscritos para la API esté correctamente implementado y accesible.
 
 # Pasos para la instalacion del proyecto Front End
 
@@ -58,19 +63,12 @@ Este proyecto de páctica contiene un conjunto de buenas prácticas para el desa
 
 ## Rendimiento
 
-- Optimiza y comprime tus recursos (imágenes, CSS, JS) para reducir los tiempos de carga.
-- Minimiza las solicitudes HTTP combinando archivos CSS y JS.
-- Utiliza técnicas como el "lazy loading" para retrasar la carga de recursos no visibles inicialmente.
-
-## Accesibilidad
-
-- Diseña y desarrolla con la accesibilidad en mente para garantizar que todos los usuarios puedan acceder a tu contenido.
-- Usa etiquetas semánticas apropiadas para estructurar el contenido.
-- Proporciona descripciones alternativas (atributo `alt`) para las imágenes.
+- Se optimizaron y comprimieron los recursos (imágenes, CSS, JS) para reducir los tiempos de carga.
+- Minimiza las solicitudes HTTP utilizando librerias como axios.
 
 ## Compatibilidad con Navegadores
 
-- Prueba y asegúrate de que tu sitio funcione correctamente en una variedad de navegadores y dispositivos.
+- Se Probó y aseguró que el sitio funciona correctamente en una variedad de navegadores y dispositivos.
 - Considera el uso de herramientas como Autoprefixer para manejar los prefijos de proveedores en CSS.
 
 ## Control de Versiones
