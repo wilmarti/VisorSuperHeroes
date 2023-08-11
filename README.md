@@ -10,10 +10,6 @@ El Visor de Superhéroes es una aplicación diseñada para permitir a los usuari
 - Los resultados se presentan de manera paginada, mostrando grupos de 9 tarjetas por página.
 - Una vista adicional presenta un slider que muestra el ranking de "Los 10 más votados". Los usuarios pueden acceder a esta vista a través de un botón en la vista principal.
 
-## Ranking de los 10 Más Votados
-
-- Existe una tercera vista que muestra un slider con el ranking "Los 10 más votados". Los usuarios pueden acceder a esta vista a través de un botón en la vista principal.
-
 ## Tecnologías Utilizadas
 - Vue.js: Se utiliza Vue.js como el framework principal para construir la interfaz de usuario y gestionar los componentes de la aplicación.
 - Axios: La biblioteca Axios se emplea para realizar solicitudes HTTP y comunicarse con la API de superhéroes.
@@ -65,16 +61,16 @@ Este proyecto de páctica contiene un conjunto de buenas prácticas para el desa
 
 - Se optimizaron y comprimieron los recursos (imágenes, CSS, JS) para reducir los tiempos de carga.
 - Minimiza las solicitudes HTTP utilizando librerias como axios.
+- Se utilizaron herramientas de almacenamiento del navegador, como lo son LocalStorage y Cookies.
 
 ## Compatibilidad con Navegadores
 
 - Se Probó y aseguró que el sitio funciona correctamente en una variedad de navegadores y dispositivos.
-- Considera el uso de herramientas como Autoprefixer para manejar los prefijos de proveedores en CSS.
 
 ## Control de Versiones
 
-- Utiliza un sistema de control de versiones, como Git, para rastrear y administrar los cambios en tu código.
-- Crea ramas separadas para características, correcciones y experimentos, y realiza fusiones a la rama principal (por ejemplo, `main` o `master`) mediante solicitudes pull.
+- Se Utilizó el sistema de control de versiones Git, para rastrear y administrar los cambios en el código.
+- Se crearon ramas separadas para características, correcciones y experimentos, y se realizaron fusiones a la rama principal `master` mediante solicitudes pull.
 
 ## Herramientas y Dependencias
 
@@ -92,16 +88,16 @@ Las utilidades y dependencias extras utilizadas fueron las siguiente:
 ## Diseño para dispositivos móviles
 
 - El sistema fue diseñado utilizando Vuetify (Biblioteca de interfaz de usuario de Vue que ofrece componentes de Material Design Framework),esta libreria facilita el traajo para el manejo de interfaces de usuario responsivas, es decir, autoajusables a dispositivos móviles, tabien se trabajo con el sistema de cajas Flexbox, el cual es un modelo de diseño CSS3 para manejo de estructuras responsivas.
-- Tambien se realizo el diseño con tarjetas, para facilitar la vista y navegación en el sitio y cualquier dispositivo movil.
+- Se realizó el diseño con tarjetas (cards), para facilitar la vista y navegación en el sitio y cualquier dispositivo movil.
 
-## Recursos Adicionales Utilizado
-  1. Reutilizacion de funciones
-2. try catch
-3. identacion de codigo
-4. documentación de codigo
-5. Async away
-6. Estucturacion en vistas y en componentes
-7. .ENV
+## Recursos Adicionales Utilizados
+- Reutilizacion de funciones
+- try catch
+- identacion de codigo
+- documentación de codigo
+- Async away
+- Estucturacion en vistas y en componentes
+- .ENV
 ---
 
 
