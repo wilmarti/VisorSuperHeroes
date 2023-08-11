@@ -1,7 +1,7 @@
 # Visor de Super Heroes (Dentsu Creative)
 
 ### Pasos para la instalacion del proyecto Front End
-```
+
 1.	Realice la instalación de Node.js desde el sitio https://nodejs.org/es/ (si aún no lo ha realizado), version v14.21.3.
 2.	Clone el repositorio desde GitHub con el siguiente comando: git clone https://github.com/wilmarti/VisorSuperHeroes.git
 3.	Abra la carpeta denominada FrontEndPrueba en un editor de codigo como Visual Studio code.
@@ -11,7 +11,7 @@
 8.	Debe observar algo como se muestra en la siguiente imagen:
 
 ### Herramientas utilizadas
-```
+
 1. JavaScript como lenguaje de alto nivel
 2. Se utilizo Vue.js como Framework Front end
 3. Para el Back End se utilizo el Api Rest de Marvel (https://gateway.marvel.com/v1/public/comics?ts=1000&apikey=345d1a90c95c65fcb
