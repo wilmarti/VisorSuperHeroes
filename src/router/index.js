@@ -2,38 +2,41 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
-process.env.ApiUrl= "http://localhost:3000/api/" 
 
 Vue.use(VueRouter)
 
   const routes = [
   {
-    path: '/home',
+    path: '/',
     name: 'Home',
-    //component: Home
     component: () => import( '../views/Home.vue')
   },
-
+  {
+    path: '/home',
+    name: 'Home',
+    component: () => import( '../views/Home.vue')
+  },
    {
     path: '/cerrar',
     name: 'cerrar',
     component: () => import( '../views/Cerrar.vue')
   },
-  {
+  /* {
     path: '/register',
     name: 'register',
     component: () => import( '../views/Register.vue')
-  },
+  }, */
   {
     path: '/login',
     name: 'login',
     component: () => import('../views/Login.vue')
   },
   {
-    path: '/',
+    path: '/gridsuperheroes',
     name: 'gridsuperheroes',
     component: () => import('../views/GridSuperHeroes.vue')
   },
+  
   {
     path: '/personajes',
     name: 'personajes',
@@ -42,7 +45,12 @@ Vue.use(VueRouter)
   {
     path: '/masvotados',
     name: 'masvotados',
-    component: () => import('../components/Comp_MasVotados.vue')
+    component: () => import('../views/MasVotados.vue')
+  },
+  {
+    path: '/marvel',
+    name: 'marvel',
+    component: () => import('../views/Marvel.vue')
   },
 
 

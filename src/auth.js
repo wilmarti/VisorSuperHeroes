@@ -13,11 +13,10 @@ export default {
   deleteUserLogged() {
     Cookies.remove('userLogged');
     },
-  register(email, password) {
+/*   register(email, password) {
     const user = { email, password };
     return axios.post(ENDPOINT_PATH + "regiser", user);
-  },
-
+  }, */
 
   login(identifier, password) {
     const user = {identifier, password};

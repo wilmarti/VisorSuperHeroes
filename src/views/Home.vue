@@ -1,7 +1,20 @@
 <template>
   
   <div class="home"> 
-         
+      <v-layout row wrap justify-center> 
+        <v-flex xs12 sm12>
+          <v-card color="#CFD8DC">
+            <v-card-title><h1>BIENVENIDO A LA VIZUALIZACIÓN DE SUPER HEROES</h1></v-card-title>
+            <v-card-text>
+            <div  xs12 sm12 >
+            <span>Para comenzar por favor inicie session con Usuario= prueba@gmail.com y password = prueba</span>                                
+            </div>   
+            <br>       
+            <v-btn color="red" :to="{name:'login'}" >Ingresar</v-btn>               
+            </v-card-text>
+          </v-card>
+        </v-flex>
+      </v-layout> 
   </div>
 
 </template>

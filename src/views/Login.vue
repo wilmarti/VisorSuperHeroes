@@ -36,23 +36,24 @@ import auth from "@/auth";
 
 export default {
   data: () => ({
-    email: "",
-    password: "",
+    email: "prueba@gmail.com",
+    password: "prueba",
     error: false
   }),
   
   methods: {
     async login() {
       try {
-       const res = await auth.login(this.email, this.password);  
+       //const res = await auth.login(this.email, this.password);  
         const user = {
           email: this.email,
-          entidad:res.data.user.CodigoHabilitacion,
-          token: res.data.jwt
+          token: "este es un toquen de prueba"
+          //entidad:res.data.user.CodigoHabilitacion,
+          //token: res.data.jwt
         };
 
         await auth.setUserLogged(user);
-        this.$router.push("/");
+        this.$router.push("/gridsuperheroes");
 /*         if (this.$route.path != '/regparticipante') {
         this.$router.push("/regparticipante");
          } */
