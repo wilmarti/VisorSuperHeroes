@@ -1,9 +1,9 @@
-# Prueba Tecnica CCE
+# Visor de Super Heroes (Dentsu Creative)
 
 ### Pasos para la instalacion del proyecto Front End
 ```
-1.	Realice la instalación de Node.js desde el sitio https://nodejs.org/es/ (si aún no lo ha realizado)
-2.	Clone el repositorio desde GitHub con el siguiente comando: git clone https://github.com/wilmarti/PruebaTecnicaCCE.git.
+1.	Realice la instalación de Node.js desde el sitio https://nodejs.org/es/ (si aún no lo ha realizado), version v14.21.3.
+2.	Clone el repositorio desde GitHub con el siguiente comando: git clone https://github.com/wilmarti/VisorSuperHeroes.git.
 3.	Abra la carpeta denominada FrontEndPrueba en un editor de codigo como Visual Studio code.
 4.	Presione el comando “npm i”, para descargar todas las dependencias del proyecto.
 5.	Verifique que el API Rest del Back End se encuentre ejecutándose para que pueda atender las solicitudes emitidas por este sitio.
