@@ -40,23 +40,21 @@ Este proyecto de páctica contiene un conjunto de buenas prácticas para el desa
 1. [Estructura de Carpetas](#estructura-de-carpetas)
 2. [Nomenclatura y Convenciones](#nomenclatura-y-convenciones)
 3. [Rendimiento](#rendimiento)
-4. [Accesibilidad](#accesibilidad)
-5. [Compatibilidad con Navegadores](#compatibilidad-con-navegadores)
-6. [Control de Versiones](#control-de-versiones)
-7. [Herramientas y Dependencias](#herramientas-y-dependencias)
-8. [Diseño para dispositivos móviles](#diseño-para-dispositivos-móviless)
-9. [Recursos Adicionales Utilizados](#recursos-adicionales-utilizados)
+4. [Compatibilidad con Navegadores](#compatibilidad-con-navegadores)
+5. [Control de Versiones](#control-de-versiones)
+6. [Herramientas y Dependencias](#herramientas-y-dependencias)
+7. [Diseño para dispositivos móviles](#diseño-para-dispositivos-móviless)
+8. [Recursos Adicionales Utilizados](#recursos-adicionales-utilizados)
 
 ## Estructura de Carpetas
 
 - La carpeta principal del proyecto se denomina FrontEndPrueba, la cual organiza los archivos de manera lógica y coherente para facilitar la navegación y el mantenimiento.
-- El proyecto usa la siguiente estructura de carpetas: `src/`,`components/`,`router/`,`store/`,`views/`,`assets/`, `css/`, `js/`, `images/`, etc.
+- El proyecto usa la siguiente estructura de carpetas: `src/`,`components/`,`router/`,`store/`,`views/`,`assets/`, `css/`, `js/`, `images/`, etc., lo cual evidencia la organizacion de la estructura y de los correspondientes archivos.
 
 ## Nomenclatura y Convenciones
 
-- Utiliza nombres de variables, clases e identificadores descriptivos y significativos.
-- Sigue una convención de nomenclatura consistente, como camelCase o kebab-case.
-- Mantén la coherencia en el estilo de codificación en todo el proyecto.
+- Se utilizaron nombres de variables, componentes e identificadores descriptivos y significativos.
+- Se Siguio una convención de nomenclatura consistente la cual fue camelCase.
 
 ## Rendimiento
 
