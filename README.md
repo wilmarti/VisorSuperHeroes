@@ -1,5 +1,5 @@
 # Visor de Super Heroes (Dentsu Creative)
-Desarrollar un visor de superhéroes que permita a los usuarios navegar entre ellos, conocer sus habilidades y votar para establecer un ranking.
+El presente proyecto, corresponde al entregable correspondiente a la prueba técnica para la empresa Dentsu como desarrollador Full Stack y la funcionalidad principa consiste en desarrollar un visor de superhéroes que permita a los usuarios navegar entre ellos, conocer sus habilidades y votar para establecer un ranking.
 
 ## Características del Visor
 
@@ -31,18 +31,6 @@ Desarrollar un visor de superhéroes que permita a los usuarios navegar entre el
 7.	Copie la url que el comando anterior le entregue, ejemplo http://localhost:8082/ y péguela en el navegador de su preferencia.
 8.	Debe observar algo como se muestra en la siguiente imagen:
 
-# Herramientas utilizadas
-
-1. JavaScript como lenguaje de alto nivel
-2. Se utilizo Vue.js como Framework Front end
-3. Para el Back End se utilizo el Api Rest de Marvel (https://gateway.marvel.com/v1/public/comics?ts=1000&apikey=345d1a90c95c65fcb
-e249e2906cef261&hash=5d1b5769ce0f6716c78da23702ad53e0)
-4. Las utilidades extras utilizadas fueron las siguiente:
-   * Axios (es un paquete que encontraremos en npm y que nos permite hacer peticiones o llamadas al contenido de un enlace HTTP.)
-   * Vuetify (Biblioteca de interfaz de usuario de Vue que ofrece componentes de Material Design Framework)
-   * ScrollDiv (componente contenedor de desplazamiento basado en vue.js)
-   * VuePaginate (componente de paginacion basado en vue.js)
-
 # Buenas Prácticas de Desarrollo Front-End
 
 Este proyecto de páctica contiene un conjunto de buenas prácticas para el desarrollo front-end. Estas prácticas están diseñadas para mejorar la calidad del código, la colaboración y la mantenibilidad de proyectos front-end.
@@ -56,6 +44,8 @@ Este proyecto de páctica contiene un conjunto de buenas prácticas para el desa
 5. [Compatibilidad con Navegadores](#compatibilidad-con-navegadores)
 6. [Control de Versiones](#control-de-versiones)
 7. [Herramientas y Dependencias](#herramientas-y-dependencias)
+8. [Diseño para dispositivos móviles](#diseño-para-dispositivos-móviless)
+9. [Recursos Adicionales Utilizados](#recursos-adicionales-utilizados)
 
 ## Estructura de Carpetas
 
@@ -92,38 +82,31 @@ Este proyecto de páctica contiene un conjunto de buenas prácticas para el desa
 
 ## Herramientas y Dependencias
 
-- Documenta las herramientas y dependencias utilizadas en tu proyecto.
+- JavaScript como lenguaje de alto nivel.
+- Se utilizo Vue.js como Framework Front end
+- Para el Back End se utilizo el Api Rest de Marvel (https://gateway.marvel.com/v1/public/comics?ts=1000&apikey=345d1a90c95c65fcb
+e249e2906cef261&hash=5d1b5769ce0f6716c78da23702ad53e0)
+Las utilidades y dependencias extras utilizadas fueron las siguiente:
+   * Axios (es un paquete que encontraremos en npm y que nos permite hacer peticiones o llamadas al contenido de un enlace HTTP.)
+   * Vuetify (Biblioteca de interfaz de usuario de Vue que ofrece componentes de Material Design Framework)
+   * ScrollDiv (componente contenedor de desplazamiento basado en vue.js)
+   * VuePaginate (componente de paginacion basado en vue.js)
 - Proporciona instrucciones claras sobre cómo configurar el entorno de desarrollo y cómo instalar dependencias.
 
----
+## Diseño para dispositivos móviles
 
-¡Siéntete libre de personalizar y expandir este README con más detalles específicos sobre tus buenas prácticas y enlaces relevantes!
+- El sistema fue diseñado utilizando Vuetify (Biblioteca de interfaz de usuario de Vue que ofrece componentes de Material Design Framework),esta libreria facilita el traajo para el manejo de interfaces de usuario responsivas, es decir, autoajusables a dispositivos móviles, tabien se trabajo con el sistema de cajas Flexbox, el cual es un modelo de diseño CSS3 para manejo de estructuras responsivas.
+- Tambien se realizo el diseño con tarjetas, para facilitar la vista y navegación en el sitio y cualquier dispositivo movil.
 
-### Herramientas utilizadas
-
-1. Reutilizacion de funciones
+## Recursos Adicionales Utilizado
+  1. Reutilizacion de funciones
 2. try catch
 3. identacion de codigo
 4. documentación de codigo
 5. Async away
 6. Estucturacion en vistas y en componentes
 7. .ENV
- 
-
-La pantalla anterior tiene las siguientes funcionalidades:
-
-1.	Búsqueda de productos por cada letra ingresada filtra automáticamente.
-2.	Conteo de la cantidad de productos dentro del carro de compras
-3.	Lista de productos en el carro de compras con descripción, cantidad, valor unidad y valor total. 
-4.	Botón de sacar del carro, el cual elimina el producto de carro y devuelve las unidades seleccionadas al stock de la tienda. Así:
-
- 
-5.	Botón Comprar el cual pide la siguiente informacion para poder hacer la transaccion.
-
- 
-
-La informacion solicitada es necesaria para realizar la compra y es almacenada en la tabla ventas de la base de datos.
-
+---
 
 
 ```
