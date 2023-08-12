@@ -14,6 +14,9 @@ El Visor de Superhéroes es una aplicación diseñada para permitir a los usuari
 - Vue.js: Se utiliza Vue.js como el framework principal para construir la interfaz de usuario y gestionar los componentes de la aplicación.
 - Axios: La biblioteca Axios se emplea para realizar solicitudes HTTP y comunicarse con la API de superhéroes.
 - Vuetify: Vuetify es un framework de diseño que proporciona componentes y estilos predefinidos para crear una interfaz atractiva y coherente.
+- Token (informática), también llamado componente léxico es una cadena de caracteres que tiene un significado coherente en cierto lenguaje de programación. Token de seguridad, utilizado para facilitar el proceso de autenticación de usuarios.
+- ScrollDiv (componente contenedor de desplazamiento basado en vue.js)
+- VuePaginate (componente de paginacion basado en vue.js)
 
 ## Notas para los Desarrolladores
 - El servicio backend debe ser implementado en un lenguaje de alto nivel y puede hacer uso de frameworks según tu elección.
