@@ -1,3 +1,4 @@
+<!-- vita que se utiliza para realizar la autenticación de usuarios dentro del sistema -->
 <template>
   <div class="login">
     <h1 class="title">Autenticación Requerida</h1>
@@ -10,7 +11,7 @@
         id="email"
         required
         placeholder="Email"
-      >
+      />
       <label class="form-label" for="#password">Password:</label>
       <input
         v-model="password"
@@ -18,55 +19,51 @@
         type="password"
         id="password"
         placeholder="Password"
-      >
-      <p v-if="error" class="error">Has introducido mal el email o la contraseña.</p>
-      <input class="form-submit" type="submit" value="Ingresar">
+      />
+      <p v-if="error" class="error">
+        Has introducido mal el email o la contraseña.
+      </p>
+      <input class="form-submit" type="submit" value="Ingresar" />
     </form>
-    <p class="msg">¿No tienes cuenta?
+    <p class="msg">
+      ¿No tienes cuenta?
       <router-link to="/register">Regístrate</router-link>
     </p>
   </div>
 </template>
 
 <script>
-
-
+//importacion del componente de autenticacion
 import auth from "@/auth";
-
 
 export default {
   data: () => ({
     email: "prueba@gmail.com",
     password: "prueba",
-    error: false
+    error: false,
   }),
-  
+
   methods: {
     async login() {
       try {
-       //const res = await auth.login(this.email, this.password);  
+
         const user = {
           email: this.email,
-          token: "este es un toquen de prueba"
-          //entidad:res.data.user.CodigoHabilitacion,
-          //token: res.data.jwt
+          token: "este es un toquen de prueba",
         };
 
+        //metodo utilizado para ingrear el usuario y el token a la cookie
         await auth.setUserLogged(user);
         this.$router.push("/gridsuperheroes");
-/*         if (this.$route.path != '/regparticipante') {
-        this.$router.push("/regparticipante");
-         } */
       } catch (error) {
         this.error = true;
       }
-    }
-  }
+    },
+  },
 };
-
 </script>
 
-<style  scoped>
+<style scoped>
 /* lang="scss" */
 .login {
   padding: 2rem;
@@ -91,7 +88,7 @@ export default {
   margin-top: 2rem;
   color: white;
   margin-bottom: 0.5rem;
-/*   &:first-of-type {
+  /*   &:first-of-type {
     margin-top: 0rem;
   } */
 }
@@ -101,7 +98,7 @@ export default {
   background-image: none;
   border: 1px solid white;
   color: white;
-/*   &:focus {
+  /*   &:focus {
     outline: 0;
     border-color: #1ab188;
   } */
@@ -114,7 +111,7 @@ export default {
   padding: 1rem 0;
   cursor: pointer;
   transition: background 0.2s;
-/*   &:hover {
+  /*   &:hover {
     background: #0b9185;
   } */
 }

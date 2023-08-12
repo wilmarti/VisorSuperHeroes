@@ -1,3 +1,4 @@
+<!-- /* Vista principal de la aplicacion */ -->
 <template>
   
   <div class="home"> 
@@ -20,8 +21,9 @@
 </template>
 
 <script>
-
+// importacion del componente de login
 import login from '@/views/Login.vue'
+//importacion del componente de autenticacion
 import auth from "@/auth";
 
 export default {
@@ -33,6 +35,7 @@ export default {
       login
   },
   computed: {
+    //propiedad computada que tra el usuario de la cookie
     userLogged() {
       return auth.getUserLogged();
     }
