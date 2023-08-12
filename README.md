@@ -92,18 +92,12 @@ Las utilidades y dependencias extras utilizadas fueron las siguiente:
 
 ## Recursos Adicionales Utilizados
 - Reutilizacion de funciones
-- try catch
-- identacion de codigo
-- documentación de codigo
-- Async away
-- Estucturacion en vistas y en componentes
-- .ENV
+- Try-Catch (La declaración try... catch señala un bloque de instrucciones a intentar ( try ), y especifica una respuesta si se produce una excepción ( catch ))
+- Identacion de codigo (Presentación correcta del codigo fuente en cuanto a espacios y tabulaciones)
+- Documentación de codigo
+- Async away (característica sintáctica de muchos lenguajes de programación que permite estructurar una función asíncrona sin bloqueo de forma similar a una función síncrona ordinaria)
+- Estucturacion en vistas y en componentes (La programación orientada a componentes (que también es llamada basada en componentes) es una rama de la ingeniería del software, con énfasis en la descomposición de sistemas ya conformados en componentes funcionales o lógicos con interfaces bien definidas usadas para la comunicación entre componentes.)
+- .ENV (El archivo .env permite personalizar las variables de entorno de trabajo individuales. Puesto que el archivo .env está oculto)
 ---
 
-
-```
-
-
-
-
- 
+``` 
